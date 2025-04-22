@@ -1,0 +1,76 @@
+/* Full-page background with color and image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('logo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Container for the login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Login box style */
+.login-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    font-size: 18px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #FF6347; /* Colorful header */
+    font-size: 2em;
+}
+
+/* Input box styles */
+.textbox {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    color: #333;
+    font-size: 1em;
+}
+
+.textbox input:focus {
+    outline: none;
+    border: 2px solid #FF6347;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: #FF6347;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #FF4500;
+}
